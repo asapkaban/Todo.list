@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(80, 141, 202);
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: weight; 
+    font-style: normal;
+}
+.content{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.content .content_name h1{
+    color: rgb(39, 76, 116);
+}
+.content_input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin: 5px 40px;
+    margin-top: 0;
+}
+.content .content_input input{
+    width: 450px;
+    font-size: 25px;
+    border: 3px solid rgb(80, 141, 202);
+    padding: 15px;
+}
+.content .content_input input::placeholder{
+    color: gray;
+    text-align: center;
+    
+}
+.content .content_input button{
+    border: none;
+    background-color: rgb(80, 141, 202);
+    width: 55px;
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 15px;
+    font-size: 40px;
+}
+.content .content_input button:hover{
+    background-color: rgb(60, 105, 150);
+}
+
+.tasks_level{
+    border: 3px solid rgb(80, 141, 202);
+    width: 350px;
+    height: 30px;
+    margin-bottom: 25px;
+    
+}
+.tasks_level_done{
+    height: 30px;
+    width: 0;
+    background-color: rgb(60, 105, 150);
+
+}
+.level_done_value{
+    font-size: 20px;
+    text-align: center;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(80, 141, 202);
+    width: 450px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    height: fit-content;
+}
+.task button{
+    border: none;
+    background-color: rgb(255, 0, 0);
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 40px;
+    border-radius: 5px;
+    margin: auto 0;
+    margin-left: 15px;
+}
+.task button:hover {
+    background-color: rgb(204, 0, 0);
+}
+
+.task_input{
+    width: 30px;
+    
+}
+.task_completed{
+    background-color: rgb(0, 170, 0);
+}
+.task_completed_h2{
+    text-decoration: line-through;
+}
+.task h2{
+    max-width: 300px;
+}
+.button_clear{
+    border: none;
+    background-color: aliceblue;
+}
+.todo_panel{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    justify-content: space-between;
+}
+.button_clear{
+    cursor: pointer;
+}
